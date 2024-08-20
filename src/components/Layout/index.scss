@@ -1,0 +1,139 @@
+@import "../../util/style.scss";
+.page {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.container {
+    width: 100%;
+    will-change: contents;
+    height: 90%;
+    min-height: 566px;
+    position: absolute;
+    opacity: 0;
+    top: 5%;
+    margin: 0 auto;
+    z-index: 1;
+    transform-style: preserve-3d;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s;
+    
+}
+.home-page,
+.contact-page,
+.about-page {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    h1 {
+        min-width: 400px;
+        font-size: 60px;
+        font-family: 'Coolvetica';
+        color: $white;
+        font-weight: 400;
+        margin-top: 0;
+        position: relative;
+        margin-bottom: 40px;
+
+
+    }
+    h2 {
+        color: $sub-color;
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 11px;
+        font-family: sans-serif;
+        letter-spacing: 3px;
+        animation: fadeIn 1s 1.8s backwards;
+    }
+    .flat-button {
+        color: $accent;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 1px solid $accent;
+        margin-top: 25px;
+        float: left;
+        animation: fadeIn 1s 1.8s backwards;
+        white-space: nowrap;
+
+        &:hover {
+            background: $accent;
+            color: $background-color;
+        }
+    }
+    p {
+        font-style: 18px;
+        color: $white;
+        font-family: sans-serif;
+        font-weight: 300;
+        min-width: fit-content;
+        animation: pulse 1s;
+    
+        &:nth-of-type(1) {
+            animation-delay: 1.1s;
+        }
+        &:nth-of-type(2) {
+            animation-delay: 1.2s;
+        }
+        &:nth-of-type(3) {
+            animation-delay: 1.3s;
+        }
+        &:nth-of-type(4) {
+            animation-delay: 1.4s;
+        }
+    }
+    .text-zone {
+        flex: auto;
+        position: absolute;
+        left: 100px;
+        right: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+        vertical-align: middle;
+        display: inline-block;
+        max-height: 90%;
+        max-width: 50%;
+        min-width: 300px;
+    }
+    .text-animate-hover {
+        &:hover {
+            color: $accent;
+            
+        }
+    }
+    .in-text {
+    width: 32px;
+    opacity: 0;
+    height: 39px;
+    animation: rotateIn 1s linear both;
+    animation-delay: 1.4s;
+    }
+    #about-card {
+        left: 100px;
+        right: 50px;
+        position: absolute;
+        flex: 1 1 auto;
+        top: 600px;
+        display: inline;
+    }
+    body {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    iframe {
+        vertical-align: top;
+        width: 30vw;
+        min-width: 300px;
+        max-width: 400px;
+        margin-top:10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        
+    }
+
+
+    
+}
