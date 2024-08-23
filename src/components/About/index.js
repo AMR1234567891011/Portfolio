@@ -3,7 +3,6 @@ import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState} from 'react'
 import { Loader } from 'react-loaders'
 
-
 const About = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     useEffect(() => {
@@ -11,6 +10,7 @@ const About = () => {
             setLetterClass('text-animate-hover')
         }, 3000)
     }, [])
+
 const script = document.createElement("script"); script.src = "//cdn.jsdelivr.net/github-cards/latest/widget.js"; document.body.appendChild(script); 
 
     return (
@@ -47,7 +47,7 @@ const script = document.createElement("script"); script.src = "//cdn.jsdelivr.ne
 
                 </div>
 
-                <div className="card"id="about-card">
+                <div className="card" id="about-card">
                     <div class="github-card" data-github="AMR1234567891011/CS-4333-Project-2" data-width="400" data-height="" data-theme="default"></div>
                     <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
                     <div class="github-card" data-github="AMR1234567891011/SSD1306-pi-driver" data-width="400" data-height="" data-theme="default"></div>
