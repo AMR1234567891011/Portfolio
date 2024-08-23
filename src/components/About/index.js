@@ -52,7 +52,7 @@ const script = document.createElement("script"); script.src = "//cdn.jsdelivr.ne
                     <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
                     <div class="github-card" data-github="AMR1234567891011/SSD1306-pi-driver" data-width="400" data-height="" data-theme="default"></div>
                     <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
-                    <div class="github-card" data-github="AMR1234567891011/MyPortfolio" data-width="400" data-height="" data-theme="default"></div>
+                    <div class="github-card" data-github="AMR1234567891011/Portfolio" data-width="400" data-height="" data-theme="default"></div>
                     <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
                 </div>
             </div>
