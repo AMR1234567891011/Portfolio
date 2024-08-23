@@ -26,21 +26,25 @@ const script = document.createElement("script"); script.src = "//cdn.jsdelivr.ne
                         />
                     </h1>
                     <p>
-                        I am a student at The Universiy of Tulsa studying for three majors
+                        I am a student at The Universiy of Tulsa studying for three majors:
                         Computer Science, Cyersecurity, and Mathematics. In each of my projects
                         I strive to learn the very basics of a new type of development. 
-                        I am currently working as a undergradute security researcher on a federal grant at my university, 
-                        and I am currently writing a paper as the primary contributor. 
+                        I am currently working as a undergradute security researcher on a federal grant at my university. 
+                        I am currently writing a paper as the primary contributor. 
                     </p>
                     <p>
-                        I am the vice president and tresurer for The University of Tulsa ACM chapter. 
-                        We have put on events about software development, programming languages, work culture,
-                        and interview preparation. We have also worked with Paycom to highlight their Oklahoma based development team.
+                        I am the vice president and treasurer for The University of Tulsa Association of Computing Machinery(ACM) chapter. 
+                        We run events on software development, programming languages, work culture,
+                        and interview preparation. ACM-TU has also worked with Paycom to highlight their Oklahoma based development team.
                     </p>
                     <p>
                         Outside of school and work I have completed the rank of Eagle Scout, and have held leadership
-                        positions in Scouting and highschool clubs.
+                        positions in Scouting and highschool clubs. I also love playing recreational sports like pickleball.
                     </p>
+                        <a className='flat-button' href='https://github.com/AMR1234567891011/Resume/blob/main/NEW-Asher Rosen - CS RESUME -2024.pdf'>
+                            RESUME
+                        </a>
+
                 </div>
 
                 <div className="card"id="about-card">

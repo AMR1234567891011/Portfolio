@@ -15,7 +15,7 @@ const Contact = () => {
         <>
         <div className='container contact-page'> 
             <div className='text-zone'>
-                <h1>
+                <h1 id="contact-me">
                     <AnimatedLetters strArray={['C','o','n','t','a','c','t',' ','M','e']}
                     letterClass={letterClass}
                     idx={15}
@@ -33,6 +33,9 @@ const Contact = () => {
                 <p>
                     Github: AMR1234567891011
                 </p>
+                    <a className='flat-button' href='https://github.com/AMR1234567891011/Resume/blob/main/NEW-Asher Rosen - CS RESUME -2024.pdf'>
+                            RESUME
+                    </a>
 
             </div>
         </div>
