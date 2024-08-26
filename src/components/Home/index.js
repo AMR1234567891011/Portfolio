@@ -40,7 +40,7 @@ const Home = () => {
                 <h2>
                     Student triple majoring in Computer Science, Cybersecurity, and Mathematics</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
-                    <a className='flat-button' href='https://github.com/AMR1234567891011/Resume/blob/main/NEW-Asher Rosen - CS RESUME -2024.pdf'>
+                    <a className='flat-button' href='https://github.com/AMR1234567891011/Resume/blob/main/Asher-Rosen.pdf'>
                         RESUME
                     </a>
                 <a sytle="height: 50px;"/>

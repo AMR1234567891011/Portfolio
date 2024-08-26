@@ -33,7 +33,7 @@ const Contact = () => {
                 <p>
                     Github: AMR1234567891011
                 </p>
-                    <a className='flat-button' href='https://github.com/AMR1234567891011/Resume/blob/main/NEW-Asher Rosen - CS RESUME -2024.pdf'>
+                    <a className='flat-button' href='https://github.com/AMR1234567891011/Resume/blob/main/Asher-Rosen.pdf'>
                             RESUME
                     </a>
 
